@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <body>
+            <script>
+                // function login(username, password){
+                //}
+                const correctUsername="supri";
+                const correctPassword="supriya@3366";
+                let Username= prompt ("Enter username:");
+                if(Username===correctUsername){
+                    let Password= prompt("Enter password:");
+                    if(Password===correctPassword){
+                        console.log("succussfully login the webpage");
+                    }
+                    else{
+                        console.log("incorrect username OR password");
+                    }
+                }
+                //else{
+                // console.log("incorrect passsword OR password");
+                //}
+            </script>
+        </body>
+    </head>
+    </html>
+            
+    
+              
+        
